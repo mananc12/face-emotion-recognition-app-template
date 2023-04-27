@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Live Instructional Video Template</title>
+    <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+	<header>
+        <div class="navbar">
+		 <div class="title">LEARNER📕</div>
+         <div class="container">
+         <input type="search" class="search" placeholder="Search">
+         <button>Login</button>
+         <button>Signup</button>
+        </div>
+        </div>
+	</header>
+	<main>
+		<div class="grid">
+
+			<div class="live-video" >
+                <h2>Instructional Video</h2>
+                <video width="700" height="500" autoplay muted src="live-instructional-video.mp4" controls></video>
+            </div>
+
+            <div class="student-video" >
+                <h2>Live Video</h2>
+                <video id="studentVideo" width="700" height="500" autoplay muted src="student-video.mp4" controls></video>
+                <div id="student-emotion">
+                    Emotion: <span id="emotion">
+            </div>
+                  
+            </div>
+            
+            
+		</div>
+	</main>
+	<footer>
+		<p>© 2023 Live Instructional Video Template</p>
+	</footer>
+</body>
+</html>
