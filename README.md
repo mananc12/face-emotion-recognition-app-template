@@ -19,7 +19,7 @@ This is a simple web template for showing live instructional videos and student 
 
 1. Add your instructional video to the live-instructional-video.mp4 file
 2. Add your live student video to the student-video.mp4 file
-3. Run the index.html file in a web browser to see the live videos side by side
+3. Run the index.html file in a web browser by live server of VSCode to see the live videos side by side
 4. The student's emotions will be displayed on the page in real-time
 
 ## Dependencies
@@ -27,4 +27,3 @@ This is a simple web template for showing live instructional videos and student 
 The project uses the following dependencies:
 
 + face-api.js for emotion detection
-+ normalize.css for cross-browser consistency
